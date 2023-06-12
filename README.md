@@ -23,8 +23,8 @@ The information here are the steps needed to get Runescape 3 working on my syste
 * There should now be a new directory `~/.wine/drive_c/Program Files (x86)/Jagex Launcher/Games/Runescape` that contains `Runescape.exe` and `runescape_shortcut.ico`
 * Close the launcher
 * Copy the `runescape.sh` file to `~/Jagex`
-* Remove the installed Run `rm ~/.wine/drive_c/Program\ Files\ \(x86\)/Jagex\ Launcher/Games/Runescape/Runescape.exe`
-* Run `ln -s ~/Jagex/runescape.sh ~/.wine/drive_c/Program\ Files\ \(x86\)/Jagex\ Launcher/Games/Runescape/Runescape.exe`
+* Remove the installed executable by running `rm ~/.wine/drive_c/Program\ Files\ \(x86\)/Jagex\ Launcher/Games/Runescape/Runescape.exe`
+* Symlink the shell script where the launcher expects the game executable: `ln -s ~/Jagex/runescape.sh ~/.wine/drive_c/Program\ Files\ \(x86\)/Jagex\ Launcher/Games/Runescape/Runescape.exe`
 * Verify that the game starts up and log in with an existing credentials
 * When all looks well, it should be safe to copy over the profile to a Jagex Account
 
