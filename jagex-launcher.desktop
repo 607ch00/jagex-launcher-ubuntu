@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Jagex Launcher
+GenericName=Jagex Launcher
+Comment=Jagex Launcher
+Icon=runescape
+Terminal=false
+Exec=wine '/home/<USERNAME>/.wine/drive_c/Program Files (x86)/Jagex Launcher/JagexLauncher.exe'
+Categories=Game;
+MimeType=x-scheme-handler/rs-launch;x-scheme-handler/rs-launchs
