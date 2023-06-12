@@ -5,7 +5,7 @@ From this [youtube guide](https://www.youtube.com/watch?v=izLxF_Wwinw) we see an
 
 From [this example](https://raw.githubusercontent.com/TormStorm/jagex-launcher-linux/main/resources/runescape.sh) we see the list of environment variables used in the [runescape.sh](./runescape.sh) script.
 
-Examining the [lutris config file](https://github.com/TormStorm/jagex-launcher-linux/blob/main/resources/jagexlauncher.yml) we see how to trick the Jagex Launcher how to call the shell script.
+Examining the [lutris config file](https://github.com/TormStorm/jagex-launcher-linux/blob/main/resources/jagexlauncher.yml) we see how to trick the Jagex Launcher with how to call the shell script.
 
 ## Disclaimer
 
