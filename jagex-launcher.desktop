@@ -3,9 +3,14 @@ Version=1.0
 Type=Application
 Name=Jagex Launcher
 GenericName=Jagex Launcher
-Comment=Jagex Launcher
+Comment=Jagex Launcher for Runescape
 Icon=runescape
 Terminal=false
 Exec=wine '/home/<USERNAME>/.wine/drive_c/Program Files (x86)/Jagex Launcher/JagexLauncher.exe'
 Categories=Game;
 MimeType=x-scheme-handler/rs-launch;x-scheme-handler/rs-launchs
+Actions=cache;
+
+[Desktop Action cache]
+Name=Cache Clean-up
+Exec=/bin/bash -c "rm -rf ~/'.runescape' ~/'Jagex/mesa_shader_cache' ~/'Jagex/GLCache' ~/'Jagex/launcher/instance.lock' ~/'Jagex/RuneScape/ShaderManager.jcache' '/tmp/runescape' && sync && notify-send 'The RuneScape cache has been cleaned.'"
